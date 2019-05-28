@@ -29,7 +29,6 @@ public class borraDuplis {
 					salida = linea1 + " " + salida;
 				}
 			}
-			pw.print(salida);
 			String[] out_lines = salida.split(" "); 
 			for (int aa = 0; aa < out_lines.length; aa++) {
 				pw.println(out_lines[aa]);
